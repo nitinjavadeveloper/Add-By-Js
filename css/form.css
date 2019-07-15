@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  background: url(../images/image4.jpg) no-repeat;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrap {
+  max-width: 350px;
+  border-radius: 20px;
+  margin-left: 60%;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.wrap h2 {
+  text-align: center;
+}
+
+.wrap input[type=text] {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 12px 5px;
+  background: rgba(0, 0, 0, 0.1);
+  border: none;
+  border-bottom: 1px dotted #ffffff;
+  color: #fff;
+  border-radius: 5px;
+  margin: 5px;
+  font-weight: bold;
+}
+
+.wrap button {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px 5px;
+  margin-top: 30px;
+  background: #60adde;
+  border-radius: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.wrap button:hover {
+  background: #003366;
+}
+/*# sourceMappingURL=form.css.map */
